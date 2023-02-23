@@ -3,22 +3,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <div>Test text here!</div>
-      </header>
+    <div className="vh-100">
+      <div className="py-5 h-100">
+        <div className="d-flex justify-content-center h-100">
+          <div className="card shadow rounded-3 container-xl">
+            <div className="card-body p-5 text-center">
+              <div className="fw-bold">サンプルページ</div>
+              <img src={logo} className="App-logo" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
