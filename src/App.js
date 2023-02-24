@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
           <div className="card shadow rounded-3 container-xl Card-background">
             <div className="card-body p-5 text-center">
               <div className="fw-bold App-text">サンプルページ</div>
-              <img src={logo} className="App-logo h-100 img-fluid" alt="application-logo"/>
+              {/* <img src={logo} className="App-logo h-100 img-fluid" alt="application-logo"/> */}
             </div>
           </div>
         </div>
